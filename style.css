@@ -113,3 +113,10 @@ footer{padding:30px 7vw;display:flex;justify-content:space-between;align-items:c
   .contact-grid{grid-template-columns:1fr}.contact-actions{flex-direction:column;align-items:stretch}
   footer{flex-direction:column;align-items:flex-start;gap:10px}
 }
+
+.simple-booking{align-items:center}
+.call-card{background:#fff;padding:38px;box-shadow:0 15px 45px rgba(24,54,56,.08);max-width:500px}
+.call-card h3{font:500 28px "Playfair Display",serif;margin:12px 0 8px}
+.call-card p{color:var(--muted);font-size:13px;margin:0 0 22px}
+.call-icon{font-size:28px}
+.phone-outline{margin-top:10px;border:1px solid var(--ink);text-align:center}
