@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Дача у моря — СНТ «Золотой берег»</title>
-  <meta name="description" content="Аренда уютной дачи у моря в СНТ «Золотой берег». 150 метров до моря, до 4 гостей, 4 спальных места, парковка на 3 машины.">
+  <title>Дача у моря — СНТ «Новая волна»</title>
+  <meta name="description" content="Аренда уютной дачи у моря в СНТ «Новая волна». 150 метров до моря, до 4 гостей, 4 спальных места, парковка на 3 машины.">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -14,7 +14,7 @@
     <a href="#about">О даче</a>
     <a href="#amenities">Удобства</a>
     <a href="#gallery">Фото</a>
-    <a href="#booking">Даты</a>
+    <a href="#booking">Бронирование</a>
     <a href="#contacts">Контакты</a>
   </nav>
   <a class="header-call" href="tel:+79772674550">Позвонить</a>
@@ -27,10 +27,9 @@
   <div class="hero-content">
     <div class="eyebrow">Аренда дачи у моря</div>
     <h1>Море рядом.<br><i>Отдых начинается здесь.</i></h1>
-    <p>СНТ «Золотой берег» · 150 метров до моря · до 4 гостей</p>
+    <p>СНТ «Новая волна» · 150 метров до моря · до 4 гостей</p>
     <div class="hero-actions">
       <a class="btn light" href="#booking">Выбрать даты</a>
-      <a class="btn outline" id="heroWhatsApp" target="_blank">Написать в WhatsApp</a>
     </div>
   </div>
   <div class="hero-price">
@@ -54,12 +53,12 @@
       <h2>Уютная дача<br><i>у самого моря.</i></h2>
     </div>
     <div class="copy">
-      <p>Приглашаем отдохнуть в уютной даче в СНТ «Золотой берег». До моря всего 150 метров — можно легко дойти пешком и провести день у воды, а вечером вернуться в спокойную домашнюю атмосферу.</p>
+      <p>Приглашаем отдохнуть в уютной даче в СНТ «Новая волна». До моря всего 150 метров — можно легко дойти пешком и провести день у воды, а вечером вернуться в спокойную домашнюю атмосферу.</p>
       <p>Дом рассчитан на размещение до 4 гостей. Здесь есть всё необходимое для комфортного проживания: оборудованная кухня, бытовая техника, чистое постельное бельё, полотенца, кондиционер, Wi‑Fi и многое другое.</p>
       <div class="location-card">
         <span>📍</span>
         <div>
-          <b id="locationName">СНТ «Золотой берег»</b>
+          <b id="locationName">СНТ «Новая волна»</b>
           <small>Координаты: <span id="coordinates">42.148948, 48.227941</span></small>
         </div>
       </div>
@@ -69,7 +68,7 @@
 </section>
 
 <section class="gallery" id="gallery">
-  <figure class="gallery-main"><img src="hero.jpg" alt="Дача в СНТ Золотой берег"><figcaption>Внешний вид дачи</figcaption></figure>
+  <figure class="gallery-main"><img src="hero.jpg" alt="Дача в СНТ Новая волна"><figcaption>Внешний вид дачи</figcaption></figure>
   <figure><img src="bedroom.jpg" alt="Спальная комната дачи"><figcaption>Спальная комната</figcaption></figure>
   <figure><img src="kitchen.jpg" alt="Кухня и гостиная дачи"><figcaption>Кухня и гостиная</figcaption></figure>
 </section>
@@ -106,33 +105,22 @@
 </section>
 
 <section class="section booking-section" id="booking">
-  <div class="booking-wrap">
-    <div class="booking-intro">
+  <div class="booking-wrap simple-booking">
+    <div>
       <div class="kicker">Планируете отдых?</div>
-      <h2>Выберите даты<br><i>и свяжитесь с нами.</i></h2>
-      <p>Календарь поможет выбрать период и рассчитать ориентировочную стоимость. Бронирование подтверждается после телефонного разговора.</p>
+      <h2>Отдых у моря<br><i>начинается с звонка.</i></h2>
+      <p>Позвоните нам, чтобы узнать свободные даты, условия проживания и забронировать дачу.</p>
       <div class="price-card">
         <span>Цена за сутки</span>
-        <strong><span id="bookingPrice">5 000</span> ₽</strong>
-      </div>
-      <div class="booking-phones">
-        <a href="tel:+79772674550">+7 (977) 267-45-50</a>
-        <a href="tel:+79686073393">+7 (968) 607-33-93</a>
+        <strong>5 000 ₽</strong>
       </div>
     </div>
-
-    <div class="calendar-card">
-      <div class="calendar-head">
-        <button id="prevMonth" aria-label="Предыдущий месяц">‹</button>
-        <h3 id="monthTitle"></h3>
-        <button id="nextMonth" aria-label="Следующий месяц">›</button>
-      </div>
-      <div class="weekdays"><span>Пн</span><span>Вт</span><span>Ср</span><span>Чт</span><span>Пт</span><span>Сб</span><span>Вс</span></div>
-      <div class="days" id="days"></div>
-      <div class="selected-dates" id="selectedDates">Выберите дату заезда</div>
-      <button class="btn dark full" id="requestBtn" disabled>Позвонить и запросить даты</button>
-      <div class="booking-note" id="bookingNote">После выбора дат позвоните для подтверждения.</div>
-      <a class="btn whatsapp hidden" id="bookingWhatsApp" target="_blank">Отправить запрос в WhatsApp</a>
+    <div class="call-card">
+      <div class="call-icon">☎</div>
+      <h3>Звоните для бронирования</h3>
+      <p>Расскажем о даче и поможем подобрать подходящие даты.</p>
+      <a class="btn dark full" href="tel:+79772674550">+7 (977) 267-45-50</a>
+      <a class="btn phone-outline full" href="tel:+79686073393">+7 (968) 607-33-93</a>
     </div>
   </div>
 </section>
@@ -149,16 +137,12 @@
       <small>Телефон</small><strong id="phone2">+7 (968) 607-33-93</strong><span>Позвонить →</span>
     </a>
   </div>
-  <div class="contact-actions">
-    <a class="btn light" id="bottomWhatsApp" target="_blank">WhatsApp · первый номер</a>
-    <a class="btn outline" id="secondWhatsApp" target="_blank">WhatsApp · второй номер</a>
-  </div>
 </section>
 </main>
 
 <footer>
   <div class="logo">Золотой <em>берег</em></div>
-  <div>СНТ «Золотой берег»</div>
+  <div>СНТ «Новая волна»</div>
   <div>© 2026</div>
 </footer>
 
