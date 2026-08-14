@@ -1,108 +1,168 @@
 <!doctype html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Морская Дача — отдых у моря</title>
-  <meta name="description" content="Уютная дача у моря для спокойного отдыха.">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Дача у моря — СНТ «Золотой берег»</title>
+  <meta name="description" content="Аренда уютной дачи у моря в СНТ «Золотой берег». 150 метров до моря, до 4 гостей, 4 спальных места, парковка на 3 машины.">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="site-header">
-    <a class="logo" href="#top">Морская<span>Дача</span></a>
-    <nav>
-      <a href="#about">О даче</a>
-      <a href="#amenities">Удобства</a>
-      <a href="#gallery">Фото</a>
-      <a href="#booking">Бронирование</a>
-    </nav>
-    <a class="header-btn" href="#booking">Забронировать</a>
-  </header>
+<header class="header">
+  <a class="logo" href="#top">Золотой <em>берег</em></a>
+  <nav>
+    <a href="#about">О даче</a>
+    <a href="#amenities">Удобства</a>
+    <a href="#gallery">Фото</a>
+    <a href="#booking">Даты</a>
+    <a href="#contacts">Контакты</a>
+  </nav>
+  <a class="header-call" href="tel:+79772674550">Позвонить</a>
+</header>
 
-  <main id="top">
-    <section class="hero">
-      <!-- Замените hero-placeholder.jpg на свою фотографию -->
-      <div class="hero-overlay"></div>
-      <div class="hero-content">
-        <p class="eyebrow">Тишина • море • свежий воздух</p>
-        <h1>Дача у моря,<br><em>куда хочется вернуться</em></h1>
-        <p class="hero-text">Уютный дом для отдыха вдали от городской суеты. Море рядом, закаты перед глазами, а всё необходимое — под рукой.</p>
-        <div class="hero-actions">
-          <a class="button primary" href="#booking">Узнать о датах</a>
-          <a class="button ghost" href="#about">Посмотреть дачу</a>
-        </div>
-      </div>
-      <div class="hero-note">Ваше место для отдыха</div>
-    </section>
+<main id="top">
+<section class="hero">
+  <div class="hero-photo"></div>
+  <div class="hero-shade"></div>
+  <div class="hero-content">
+    <div class="eyebrow">Аренда дачи у моря</div>
+    <h1>Море рядом.<br><i>Отдых начинается здесь.</i></h1>
+    <p>СНТ «Золотой берег» · 150 метров до моря · до 4 гостей</p>
+    <div class="hero-actions">
+      <a class="btn light" href="#booking">Выбрать даты</a>
+      <a class="btn outline" id="heroWhatsApp" target="_blank">Написать в WhatsApp</a>
+    </div>
+  </div>
+  <div class="hero-price">
+    <span>Стоимость</span>
+    <strong id="heroPrice">5 000</strong>
+    <small>₽ / сутки</small>
+  </div>
+</section>
 
-    <section class="intro section" id="about">
-      <div class="section-kicker">О месте</div>
-      <div class="intro-grid">
+<section class="facts">
+  <div><strong id="guests">до 4</strong><span>гостей</span></div>
+  <div><strong id="seaDistance">150 м</strong><span>до моря</span></div>
+  <div><strong id="beds">4</strong><span>спальных места</span></div>
+  <div><strong id="parking">3 машины</strong><span>парковка</span></div>
+</section>
+
+<section class="section" id="about">
+  <div class="two-col">
+    <div>
+      <div class="kicker">О месте</div>
+      <h2>Уютная дача<br><i>у самого моря.</i></h2>
+    </div>
+    <div class="copy">
+      <p>Приглашаем отдохнуть в уютной даче в СНТ «Золотой берег». До моря всего 150 метров — можно легко дойти пешком и провести день у воды, а вечером вернуться в спокойную домашнюю атмосферу.</p>
+      <p>Дом рассчитан на размещение до 4 гостей. Здесь есть всё необходимое для комфортного проживания: оборудованная кухня, бытовая техника, чистое постельное бельё, полотенца, кондиционер, Wi‑Fi и многое другое.</p>
+      <div class="location-card">
+        <span>📍</span>
         <div>
-          <h2>Несколько дней<br>у самого моря.</h2>
-        </div>
-        <div class="intro-copy">
-          <p>Здесь можно просыпаться без будильника, завтракать на свежем воздухе и вечером смотреть, как солнце уходит за горизонт.</p>
-          <p>Дача подойдёт для пары, семьи или небольшой компании друзей. Вы получаете отдельное пространство и настоящий отдых в своём ритме.</p>
+          <b id="locationName">СНТ «Золотой берег»</b>
+          <small>Координаты: <span id="coordinates">42.148948, 48.227941</span></small>
         </div>
       </div>
-    </section>
+      <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=42.148948,48.227941" target="_blank">Открыть расположение на карте →</a>
+    </div>
+  </div>
+</section>
 
-    <section class="feature-band">
-      <div><strong>5 мин</strong><span>до моря</span></div>
-      <div><strong>4–6</strong><span>гостей</span></div>
-      <div><strong>24/7</strong><span>отдельный дом</span></div>
-      <div><strong>Wi‑Fi</strong><span>быстрый интернет</span></div>
-    </section>
+<section class="gallery" id="gallery">
+  <figure class="gallery-main"><img src="hero.jpg" alt="Дача в СНТ Золотой берег"><figcaption>Внешний вид дачи</figcaption></figure>
+  <figure><img src="bedroom.jpg" alt="Спальная комната дачи"><figcaption>Спальная комната</figcaption></figure>
+  <figure><img src="kitchen.jpg" alt="Кухня и гостиная дачи"><figcaption>Кухня и гостиная</figcaption></figure>
+</section>
 
-    <section class="section amenities" id="amenities">
-      <div class="section-heading">
-        <div>
-          <div class="section-kicker">Всё для отдыха</div>
-          <h2>Удобства</h2>
-        </div>
-        <p>Собрали главное, чтобы вам оставалось только приехать и наслаждаться отдыхом.</p>
+<section class="section" id="amenities">
+  <div class="kicker">Для комфортного отдыха</div>
+  <div class="section-heading">
+    <h2>Всё необходимое<br><i>уже есть.</i></h2>
+    <p>Можно приехать и спокойно отдыхать — основные бытовые условия подготовлены для гостей.</p>
+  </div>
+
+  <div class="amenities">
+    <article><span>01</span><h3>Вода</h3><p>Горячая и холодная вода, а также летний душ.</p></article>
+    <article><span>02</span><h3>Wi‑Fi и TV</h3><p>Интернет и телевизор для отдыха и связи.</p></article>
+    <article><span>03</span><h3>Кухня</h3><p>Кухонный гарнитур, микроволновая печь и вся необходимая посуда.</p></article>
+    <article><span>04</span><h3>Комфорт</h3><p>Кондиционер, стиральная машина и всё необходимое для проживания.</p></article>
+    <article><span>05</span><h3>Для сна</h3><p>4 спальных места, чистое постельное бельё и полотенца.</p></article>
+    <article><span>06</span><h3>На территории</h3><p>Мангал, беседка, двор и парковка на 3 машины.</p></article>
+  </div>
+
+  <div class="nearby">
+    <div><b>Рядом</b><span>магазин и кафе</span></div>
+    <div><b>До моря</b><span>150 метров пешком</span></div>
+    <div><b>Стоимость</b><span>5 000 ₽ / сутки</span></div>
+  </div>
+</section>
+
+<section class="rules">
+  <div class="section">
+    <div class="kicker">Проживание</div>
+    <h2>Без сложных правил.</h2>
+    <p>Особых дополнительных правил проживания нет. Все условия и детали лучше обсудить по телефону перед бронированием.</p>
+  </div>
+</section>
+
+<section class="section booking-section" id="booking">
+  <div class="booking-wrap">
+    <div class="booking-intro">
+      <div class="kicker">Планируете отдых?</div>
+      <h2>Выберите даты<br><i>и свяжитесь с нами.</i></h2>
+      <p>Календарь поможет выбрать период и рассчитать ориентировочную стоимость. Бронирование подтверждается после телефонного разговора.</p>
+      <div class="price-card">
+        <span>Цена за сутки</span>
+        <strong><span id="bookingPrice">5 000</span> ₽</strong>
       </div>
-      <div class="amenity-grid">
-        <article><span>01</span><h3>Отдельная дача</h3><p>Пространство только для вас и ваших близких.</p></article>
-        <article><span>02</span><h3>Кухня</h3><p>Всё необходимое для завтраков, ужинов и долгих разговоров.</p></article>
-        <article><span>03</span><h3>Терраса</h3><p>Место для утреннего кофе и вечерних посиделок.</p></article>
-        <article><span>04</span><h3>Парковка</h3><p>Можно спокойно приехать на автомобиле.</p></article>
-        <article><span>05</span><h3>Мангал</h3><p>Устройте ужин на свежем воздухе.</p></article>
-        <article><span>06</span><h3>Wi‑Fi</h3><p>Если всё-таки понадобится оставаться на связи.</p></article>
+      <div class="booking-phones">
+        <a href="tel:+79772674550">+7 (977) 267-45-50</a>
+        <a href="tel:+79686073393">+7 (968) 607-33-93</a>
       </div>
-    </section>
+    </div>
 
-    <section class="gallery section" id="gallery">
-      <div class="section-kicker">Атмосфера</div>
-      <div class="gallery-heading"><h2>Фото</h2><p>Здесь позже появятся ваши фотографии дачи, моря и территории.</p></div>
-      <div class="gallery-grid">
-        <div class="photo photo-large"><span>Добавьте фото</span></div>
-        <div class="photo"><span>Добавьте фото</span></div>
-        <div class="photo"><span>Добавьте фото</span></div>
+    <div class="calendar-card">
+      <div class="calendar-head">
+        <button id="prevMonth" aria-label="Предыдущий месяц">‹</button>
+        <h3 id="monthTitle"></h3>
+        <button id="nextMonth" aria-label="Следующий месяц">›</button>
       </div>
-    </section>
+      <div class="weekdays"><span>Пн</span><span>Вт</span><span>Ср</span><span>Чт</span><span>Пт</span><span>Сб</span><span>Вс</span></div>
+      <div class="days" id="days"></div>
+      <div class="selected-dates" id="selectedDates">Выберите дату заезда</div>
+      <button class="btn dark full" id="requestBtn" disabled>Позвонить и запросить даты</button>
+      <div class="booking-note" id="bookingNote">После выбора дат позвоните для подтверждения.</div>
+      <a class="btn whatsapp hidden" id="bookingWhatsApp" target="_blank">Отправить запрос в WhatsApp</a>
+    </div>
+  </div>
+</section>
 
-    <section class="booking section" id="booking">
-      <div class="booking-card">
-        <div>
-          <div class="section-kicker">Бронирование</div>
-          <h2>Готовы к отдыху?</h2>
-          <p>Напишите нам, укажите желаемые даты и количество гостей. Мы ответим и расскажем о свободных датах.</p>
-        </div>
-        <div class="contact-box">
-          <a href="tel:+70000000000">+7 (000) 000‑00‑00</a>
-          <a href="mailto:hello@example.com">hello@example.com</a>
-          <a class="button primary" href="https://wa.me/70000000000">Написать в WhatsApp</a>
-        </div>
-      </div>
-    </section>
-  </main>
+<section class="contacts" id="contacts">
+  <div class="kicker">Бронирование</div>
+  <h2>Лучше всего — просто<br><i>позвонить нам.</i></h2>
+  <p>Расскажем о даче, ответим на вопросы и подтвердим свободные даты.</p>
+  <div class="contact-grid">
+    <a class="contact-card" href="tel:+79772674550">
+      <small>Телефон</small><strong id="phone1">+7 (977) 267-45-50</strong><span>Позвонить →</span>
+    </a>
+    <a class="contact-card" href="tel:+79686073393">
+      <small>Телефон</small><strong id="phone2">+7 (968) 607-33-93</strong><span>Позвонить →</span>
+    </a>
+  </div>
+  <div class="contact-actions">
+    <a class="btn light" id="bottomWhatsApp" target="_blank">WhatsApp · первый номер</a>
+    <a class="btn outline" id="secondWhatsApp" target="_blank">WhatsApp · второй номер</a>
+  </div>
+</section>
+</main>
 
-  <footer>
-    <div class="logo">Морская<span>Дача</span></div>
-    <p>Ваш отдых начинается здесь.</p>
-    <p>© 2026</p>
-  </footer>
+<footer>
+  <div class="logo">Золотой <em>берег</em></div>
+  <div>СНТ «Золотой берег»</div>
+  <div>© 2026</div>
+</footer>
+
+<script src="config.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
